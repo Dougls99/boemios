@@ -1,0 +1,192 @@
+body{ 
+    width: 100%;
+     width: 100%;
+     margin: 0 auto;
+}
+
+.header-1{
+    background-color: rgb(245, 221, 11);
+    height: 70px;
+}
+main{
+   margin: 0 auto;
+    width: 990px;
+    position: relative;
+}
+.menu-principal{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+
+}
+.logo{
+    float: left;
+    padding: 1px;
+    width: 60%;
+}
+.redes-socias ul li {
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+.redes-socias{
+    width: 25%;
+    float: right;
+}
+.header-2{
+    background-color: rgb(245, 221, 11);
+    width: 100%;
+    border-bottom: 3px solid rgb(245, 221, 11);
+}
+.menu-urls{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 80px;
+}
+.menu ul li {
+    display: inline-block;
+    color: rgb(245, 221, 11);
+    margin-left: 20px;
+    padding: 10px;
+    height: 25px;
+    }
+
+.menu ul li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 0,8px 0,8px 0,8px #111111;
+}
+.menu ul li a:hover{
+    color: rgb(245, 221, 11);
+    height: 30px;
+    border-bottom: 3px solid rgb(245, 221, 11);
+}
+
+.col-100{
+    width: 100%;
+    float: center;
+    position: relative;
+}
+
+.gramado{ 
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+    background-image: url("/img/campo.png");
+    min-height: 900px;
+    position: absolute;
+}
+
+
+#icon1{ 
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 20%;
+    left: 47%;
+}
+
+#icon2 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 21%;
+    right: 32%;   
+}
+
+#icon3 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 21%;
+    right: 62%;
+}
+
+#icon4 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 48%;
+    right: 55%;   
+}
+
+#icon5 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 48%;
+    right: 35%;  
+}
+
+#icon6 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 65%;
+    right: 45%; 
+}
+
+#icon7 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 80%;
+    right: 30%;   
+}
+
+#icon8 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 80%;
+    right: 61%    
+}
+
+#icon9 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 90%;
+    right: 52%;  
+}
+
+#icon10 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 90%;
+    right: 38%;  
+}
+
+#icon11 {
+    position: absolute;
+    display: flex;
+    height: 9%;
+    width: 5%;
+    top: 105%;
+    right: 890px;   
+}
+.pivo{ display: none;
+    height: 10em;
+    width: 10em;
+    border-radius: 2em;
+    background-color: yellow;
+    text-align: center;
+    font-size: x-large;
+    position: absolute;
+    right: 35em;
+}
