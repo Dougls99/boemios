@@ -1,6 +1,6 @@
-let pivo = document.getElementById("pivo");
-let icon = document.getElementById("icon1");
+function abrir(){
 
-icon.onclick = function abrir() {
-  alert("kfdjflksjdflksf");
-};
+  let pivo = document.querySelector('.pivo')
+
+  pivo.style.display = 'block';
+}
