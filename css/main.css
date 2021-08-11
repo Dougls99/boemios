@@ -148,7 +148,7 @@ main {
   height: 9%;
   width: 5%;
   top: 65%;
-  right: 45%;
+  right: 47%;
   cursor: pointer;
 }
 
@@ -207,13 +207,30 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
+  right: 34em;
   animation: animate;
   animation-duration: 500ms;
+}
+
+h3{
+  border: 0;
+  margin: 0 auto;
+}
+
+p{
+  margin: 0 auto;
+}
+
+.foto{
+  padding: 5%;
+  border-radius: 50%;
+  max-width: 40%;
+  max-height: 40%;
 }
 
 .pontaD{
@@ -221,11 +238,12 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
+  right: 23em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -235,11 +253,12 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
+  right: 45em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -249,11 +268,13 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
+  right: 41em;
+  top: 15em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -263,11 +284,13 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
+  right: 25em;
+  top: 15em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -277,11 +300,13 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
   right: 35em;
+  top: 23em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -291,11 +316,13 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
+  right: 20em;
+  top: 28em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -305,11 +332,13 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
+  right: 49em;
+  top: 28em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -319,11 +348,13 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
+  right: 38em;
+  top: 30em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -333,11 +364,13 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
+  right: 28em;
+  top: 30em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -347,11 +380,13 @@ main {
   height: 10em;
   width: 10em;
   border-radius: 2em;
-  background-color: yellow;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
   right: 35em;
+  top: 37em;
   animation: animate;
   animation-duration: 500ms;
 }
@@ -359,7 +394,8 @@ main {
 span{
  width: 30px;
  height: 30px;
- background-color: yellow;
+ background: rgb(2,0,36);
+ background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(0,0,0,0) 0%, rgba(207,236,0,0) 0%);
  border-radius: 40%;
  float: right;
  cursor: pointer;
