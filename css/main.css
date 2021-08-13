@@ -4,6 +4,7 @@ body {
   width: 100%;
   width: 100%;
   margin: 0 auto;
+  background-color: black;
 }
 
 .header-1 {
@@ -69,9 +70,9 @@ main {
 }
 
 .menu ul li a:hover {
-  color: rgb(245, 221, 11);
+  color: white;
   height: 30px;
-  border-bottom: 3px solid rgb(245, 221, 11);
+  border-bottom: 3px solid white;
 }
 
 .col-100 {
@@ -411,4 +412,12 @@ span:hover{
 @keyframes animate{
   from{opacity: 1;}
   from{opacity: 0;}
+}
+
+.logodireita{
+float: right;
+}
+
+.logoesquerda{
+  float: left;
 }
