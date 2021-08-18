@@ -2,71 +2,48 @@
 /* HEADER */
 body {
   width: 100%;
-  width: 100%;
   margin: 0 auto;
   background-color: black;
 }
+/*Header*/
+header{
+  width: 100%;
+  background-color: rgb(245, 221, 11);
+  margin-bottom: 30px;
+  padding-top: 5px;
+}
 
 .header-1 {
-  background-color: rgb(245, 221, 11);
-  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+ max-width: 1900px;
+ height: 12vh;
+
+margin: 0 auto;
 }
 
-main {
-  margin: 0 auto;
-  width: 990px;
-  position: relative;
-}
-
-.menu-principal {
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-  height: 60px;
-}
-
-.logo {
-  float: left;
-  padding: 1px;
-  width: 60%;
-}
-
-.redes-socias ul li {
-  margin-left: 15px;
-  display: inline-block;
-  list-style: none;
-}
-
-.redes-socias {
-  width: 25%;
-  float: right;
-}
-
-.header-2 {
-  background-color: rgb(245, 221, 11);
-  width: 100%;
-  border-bottom: 3px solid rgb(245, 221, 11);
-}
-
-.menu-urls {
-  border-bottom: 3px solid rgb(0, 0, 0);
-  width: 80px;
+menu.ul{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
 }
 
 .menu ul li {
-  display: inline-block;
-  color: rgb(245, 221, 11);
-  margin-left: 20px;
+  margin: 0 10px;
   padding: 10px;
-  height: 25px;
+  color:rgb(245, 221, 11);
+  list-style-type: none;
 }
 
 .menu ul li a {
-  display: inline-block;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: 20px;
-  text-transform: uppercase;
-  text-shadow: 0, 8px 0, 8px 0, 8px #111111;
+ color: #111;
+ text-decoration: none;
+ font-size: 20px;
+ text-transform: uppercase;
+ padding: 0 10px;
+ transition: 500ms;
 }
 
 .menu ul li a:hover {
@@ -75,12 +52,16 @@ main {
   border-bottom: 3px solid white;
 }
 
-.col-100 {
-  width: 100%;
-  float: center;
-  position: relative;
+/*Redes Sociais*/
+.redes-socias ul{
+  padding: 0;
 }
 
+.redes-socias ul li{
+  margin: 15px;
+  display: inline-block;
+  list-style: none;
+}
 /* PAGINA INICIAL */
 .gramado {
   height: 100%;
