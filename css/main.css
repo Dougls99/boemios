@@ -43,13 +43,15 @@ menu.ul{
  font-size: 20px;
  text-transform: uppercase;
  padding: 0 10px;
- transition: 500ms;
+ transition: 600ms;
 }
 
 .menu ul li a:hover {
   color: white;
-  height: 30px;
-  border-bottom: 3px solid white;
+  padding: 20px 50px;
+  background-color: black;
+  border-radius: 50px;
+  transition: 600ms;
 }
 
 /*Redes Sociais*/
