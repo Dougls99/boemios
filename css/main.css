@@ -18,10 +18,10 @@ header{
   justify-content: space-around;
   align-items: center;
 
- max-width: 1900px;
- height: 12vh;
+  max-width: 1900px;
+  height: 12vh;
 
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .menu ul{
@@ -38,12 +38,12 @@ margin: 0 auto;
 }
 
 .menu ul li a {
- color: #111;
- text-decoration: none;
- font-size: 20px;
- text-transform: uppercase;
- padding: 0 10px;
- transition: 600ms;
+  color: #111;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  transition: 600ms;
 }
 
 .menu ul li a:hover {
@@ -403,4 +403,18 @@ float: right;
 
 .logoesquerda{
   float: left;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.texto{ 
+  font-family: arial;
+  color: aliceblue;
+  text-align: center;
+  font-size: 22px;
+  text-transform: capitalize;
 }
