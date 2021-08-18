@@ -24,7 +24,7 @@ header{
 margin: 0 auto;
 }
 
-menu.ul{
+.menu ul{
   display: flex;
   flex-direction: row;
   padding: 0;
