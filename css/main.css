@@ -466,11 +466,16 @@ h1{
   font-size: 50px;
 }
 
-.texto{ 
+.fotos{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.texto{
+  text-align: center; 
   font-family: arial;
   color: aliceblue;
-  text-align: center;
   font-size: 22px;
   text-transform: capitalize;
 }
-
