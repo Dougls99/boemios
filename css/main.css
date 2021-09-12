@@ -461,9 +461,11 @@ float: right;
 }
 
 h1{
-  color: white;
+  color: rgb(0, 0, 0);
+  background-color: rgb(253, 253, 249);
   text-align: center;
   font-size: 50px;
+  padding: 2vh;
 }
 
 .fotos{
@@ -478,4 +480,37 @@ h1{
   color: aliceblue;
   font-size: 22px;
   text-transform: capitalize;
+}
+
+.jogos{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.jogos2{
+  padding: 10vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.jogos img{
+  width: 65vh;
+  height: 35vh;
+}
+
+.jogos2 img{
+  width: 65vh;
+  height: 35vh;
+}
+
+#butao1{
+  width: 10vh;
+  height: 5vh;
+  display: flex;
+  position:absolute;
+  top: 43vh;
+  left: 28vh;
+
 }
