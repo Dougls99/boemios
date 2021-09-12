@@ -112,7 +112,7 @@ header{
   height: 9%;
   width: 5%;
   top: 48%;
-  right: 55%;
+  right: 57%;
   cursor: pointer;
 }
 
@@ -122,7 +122,7 @@ header{
   height: 9%;
   width: 5%;
   top: 48%;
-  right: 35%;
+  right: 38%;
   cursor: pointer;
 }
 
@@ -131,7 +131,7 @@ header{
   display: flex;
   height: 9%;
   width: 5%;
-  top: 65%;
+  top: 66%;
   right: 47%;
   cursor: pointer;
 }
@@ -152,7 +152,7 @@ header{
   height: 9%;
   width: 5%;
   top: 80%;
-  right: 61%;
+  right: 64%;
   cursor: pointer;
 }
 
@@ -162,7 +162,7 @@ header{
   height: 9%;
   width: 5%;
   top: 90%;
-  right: 52%;
+  right: 55%;
   cursor: pointer;
 }
 
@@ -172,7 +172,7 @@ header{
   height: 9%;
   width: 5%;
   top: 90%;
-  right: 38%;
+  right: 39%;
   cursor: pointer;
 }
 
@@ -182,23 +182,28 @@ header{
   height: 9%;
   width: 5%;
   top: 105%;
-  right: 45%;
+  right: 47%;
   cursor: pointer;
 }
 /* Estatisticas Jogadores*/
 .pivo {
   display: none;
-  height: 10em;
-  width: 10em;
+  height: 9em;
+  width: 9em;
   border-radius: 2em;
   background: rgb(2,0,36);
   background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 34em;
+  right: 38em;
   animation: animate;
   animation-duration: 500ms;
+}
+
+.pivo img{
+  height: 100%;
+  width: 100%;
 }
 
 h3{
@@ -219,118 +224,90 @@ p{
 
 .pontaD{
   display: none;
-  height: 10em;
-  width: 10em;
+  height: 9em;
+  width: 9em;
   border-radius: 2em;
   background: rgb(2,0,36);
   background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 23em;
+  right: 26em;
   animation: animate;
   animation-duration: 500ms;
+}
+
+.pontaD img{
+  height: 100%;
+  width: 100%;
 }
 
 .pontaE{
   display: none;
-  height: 10em;
-  width: 10em;
+  height: 9em;
+  width: 9em;
   border-radius: 2em;
   background: rgb(2,0,36);
   background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 45em;
+  right: 51em;
   animation: animate;
   animation-duration: 500ms;
+}
+
+.pontaE img{
+  height: 100%;
+  width: 100%;
 }
 
 .meiaE{
   display: none;
-  height: 10em;
-  width: 10em;
+  height: 9em;
+  width: 9em;
   border-radius: 2em;
   background: rgb(2,0,36);
   background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 41em;
-  top: 15em;
+  right: 47em;
+  top: 18em;
   animation: animate;
   animation-duration: 500ms;
+}
+
+.meiaE img{
+  height: 100%;
+  width: 100%;
 }
 
 .meiaD{
   display: none;
-  height: 10em;
-  width: 10em;
+  height: 9em;
+  width: 9em;
   border-radius: 2em;
   background: rgb(2,0,36);
   background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 25em;
-  top: 15em;
+  right: 30em;
+  top: 18em;
   animation: animate;
   animation-duration: 500ms;
+}
+
+.meiaD img{
+  height: 100%;
+  width: 100%;
 }
 
 .volante{
   display: none;
-  height: 10em;
-  width: 10em;
-  border-radius: 2em;
-  background: rgb(2,0,36);
-  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
-  text-align: center;
-  font-size: x-large;
-  position: absolute;
-  right: 35em;
-  top: 23em;
-  animation: animate;
-  animation-duration: 500ms;
-}
-
-.lateralD{
-  display: none;
-  height: 10em;
-  width: 10em;
-  border-radius: 2em;
-  background: rgb(2,0,36);
-  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
-  text-align: center;
-  font-size: x-large;
-  position: absolute;
-  right: 20em;
-  top: 28em;
-  animation: animate;
-  animation-duration: 500ms;
-}
-
-.lateralE{
-  display: none;
-  height: 10em;
-  width: 10em;
-  border-radius: 2em;
-  background: rgb(2,0,36);
-  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
-  text-align: center;
-  font-size: x-large;
-  position: absolute;
-  right: 49em;
-  top: 28em;
-  animation: animate;
-  animation-duration: 500ms;
-}
-
-.zagueiroE{
-  display: none;
-  height: 10em;
-  width: 10em;
+  height: 9em;
+  width: 9em;
   border-radius: 2em;
   background: rgb(2,0,36);
   background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
@@ -338,41 +315,119 @@ p{
   font-size: x-large;
   position: absolute;
   right: 38em;
+  top: 26em;
+  animation: animate;
+  animation-duration: 500ms;
+}
+
+.volante img{
+  height: 100%;
+  width: 100%;
+}
+
+.lateralD{
+  display: none;
+  height: 9em;
+  width: 9em;
+  border-radius: 2em;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
+  text-align: center;
+  font-size: x-large;
+  position: absolute;
+  right: 25em;
   top: 30em;
   animation: animate;
   animation-duration: 500ms;
+}
+
+.lateralD img{
+  height: 100%;
+  width: 100%;
+}
+
+.lateralE{
+  display: none;
+  height: 9em;
+  width: 9em;
+  border-radius: 2em;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
+  text-align: center;
+  font-size: x-large;
+  position: absolute;
+  right: 53em;
+  top: 30em;
+  animation: animate;
+  animation-duration: 500ms;
+}
+
+.lateralE img{
+  height: 100%;
+  width: 100%;
+}
+
+.zagueiroE{
+  display: none;
+  height: 9em;
+  width: 9em;
+  border-radius: 2em;
+  background: rgb(2,0,36);
+  background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
+  text-align: center;
+  font-size: x-large;
+  position: absolute;
+  right: 45em;
+  top: 35em;
+  animation: animate;
+  animation-duration: 500ms;
+}
+
+.zagueiroE img{
+  height: 100%;
+  width: 100%;
 }
 
 .zagueiroD{
   display: none;
-  height: 10em;
-  width: 10em;
+  height: 9em;
+  width: 9em;
   border-radius: 2em;
   background: rgb(2,0,36);
   background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 28em;
-  top: 30em;
+  right: 33em;
+  top: 35em;
   animation: animate;
   animation-duration: 500ms;
 }
 
+.zagueiroD img{
+  height: 100%;
+  width: 100%;
+}
+
 .goleiro{
   display: none;
-  height: 10em;
-  width: 10em;
+  height: 9em;
+  width: 9em;
   border-radius: 2em;
   background: rgb(2,0,36);
   background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(254,254,255,1) 0%, rgba(207,236,0,1) 49%, rgba(0,0,0,0) 100%);
   text-align: center;
   font-size: x-large;
   position: absolute;
-  right: 35em;
-  top: 37em;
+  right: 39em;
+  top: 42em;
   animation: animate;
   animation-duration: 500ms;
+}
+
+.goleiro img{
+  width: 100%;
+  height: 100%;
 }
 
 span{
