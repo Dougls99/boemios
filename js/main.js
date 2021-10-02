@@ -185,18 +185,21 @@ function fechar11(){
   icon11.style.display = 'block';
 }
 
-function initMap(){
-  const uluru = { lat: -22.897650, lng: -43.352431 };
-  const map = new google.maps.Map(
-    document.getElementById("map"),
-    {
-      zoom: 15,
-      center: uluru,
-    }
-  );
 
-  const marker = new google.maps.Marker({
-    position: uluru,
-    map: map,
-  });
-}
+var mymap = L.map('map').setView([-22.9059, -43.3575], 13);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+  maxZoom: 20,
+  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+  id: 'mapbox/streets-v11',
+  tileSize: 512,
+  zoomOffset: -1
+}).addTo(mymap);
+
+var circle = L.circle([-22.9059, -43.3575], {
+  color: 'red',
+  fillColor: '#f03',
+  fillOpacity: 0.5,
+  radius: 500
+}).addTo(mymap);

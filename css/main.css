@@ -513,8 +513,8 @@ div#map{
   width: 50em;
   height: 30em;
   margin: 2em;
+  margin-left: 65em;
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 650px;
 }
